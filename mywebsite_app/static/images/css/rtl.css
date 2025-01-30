@@ -1,0 +1,32 @@
+/* static/css/rtl.css */
+
+/* Body and text alignment */
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Navbar alignment */
+.navbar-nav {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+.navbar .nav-link {
+  text-align: right;
+}
+
+/* Container alignment */
+.container {
+  text-align: right;
+}
+
+/* Additional RTL styles */
+.navbar-brand {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+.form-select {
+  text-align: right;
+}
